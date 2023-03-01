@@ -35,7 +35,7 @@ const Hero = () => {
         <Image src={Emoji} alt="emoji placeholder" priority quality={100} as="image" />
       </div>
 
-      <div className="z-50">
+      <div className="">
         <h1 className="text-5xl lg:text-6xl font-semibold px-10">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-800 to-violet-600">
             {text}
